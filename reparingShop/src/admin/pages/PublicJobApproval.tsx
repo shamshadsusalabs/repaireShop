@@ -12,7 +12,7 @@ import axios from 'axios';
 import type { Job } from '../../types';
 
 // Use direct axios for public route to avoid auth interceptors
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://repaireshop.onrender.com/api';
 
 export default function PublicJobApproval() {
     const { jobId } = useParams<{ jobId: string }>();

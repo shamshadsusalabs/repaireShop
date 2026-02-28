@@ -5,7 +5,7 @@ import {
 } from 'antd';
 import {
     PlusOutlined, EditOutlined, DeleteOutlined, SearchOutlined,
-    AppstoreOutlined, WarningOutlined, InboxOutlined,
+    AppstoreOutlined, WarningOutlined,
     FilterOutlined,
 } from '@ant-design/icons';
 import { useSearchParams } from 'react-router-dom';

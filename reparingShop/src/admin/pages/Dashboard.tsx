@@ -19,6 +19,7 @@ const statusColorMap: Record<JobStatus, string> = {
     Approval: 'purple',
     Approved: 'cyan',
     Rejected: 'red',
+    'Parts Requested': 'volcano',
     Repairing: 'processing',
     Completed: 'green',
 };
